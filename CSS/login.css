@@ -1,0 +1,49 @@
+.login__container {
+  align-items: center;
+  background: var(--color-bg1);
+  padding: 4rem;
+  display: grid;
+  /* grid-template-columns: 40% 60%; */
+  gap: 4rem;
+  height: 30rem;
+  margin: 7rem auto;
+  border-radius: 1rem;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.login_form input[type="text"] {
+  width: 50%;
+}
+
+.login_form input[type="password"] {
+  width: 50%;
+}
+
+input,
+label {
+  width: 100%;
+  padding: 1rem;
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
+.login_form .btn {
+  width: max-content;
+  margin-left: 10.5rem;
+  cursor: pointer;
+  color: var(--color-white);
+  background: var(--color-danger);
+}
